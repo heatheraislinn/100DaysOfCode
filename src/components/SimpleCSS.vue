@@ -1,7 +1,6 @@
 <template>
     <div class="box">
         <div class="head">  
-
             <div class="head-copy"></div>
 
             <div class="ear-left">
@@ -31,13 +30,9 @@
             <div class="whisker-bottom-right"></div>
 
             <div class="mouth"></div>
-
         </div>
     </div>
 </template>
-
-<script>
-</script>
 
 <style>
     body {

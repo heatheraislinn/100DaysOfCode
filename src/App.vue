@@ -1,15 +1,15 @@
 <template>
     <div>
-        <LearnCSS></LearnCSS>
+        <SimpleCSS></SimpleCSS>
     </div>
 </template>
 
 <script>
-    import LearnCSS from '@/components/LearnCSS'
+    import SimpleCSS from '@/components/SimpleCSS'
 
     export default {
         components: {
-            LearnCSS
+            SimpleCSS
         }
     }
 </script>
