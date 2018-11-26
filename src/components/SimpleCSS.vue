@@ -34,11 +34,7 @@
     </div>
 </template>
 
-<style>
-    body {
-        background-color: #25A9FC;
-    }
-
+<style scoped>
     .box {
         position: relative;
         margin: auto;
@@ -46,7 +42,7 @@
         margin-top: 8%;
         width: 600px;
         height: 420px;
-        background: #fff295;
+        background: #25A9FC;
         border-radius: 10%;
     }
 
