@@ -35,6 +35,26 @@
 
             <div class="tree-base"></div>
         </div>
+
+        <div class="snow">
+            <div class="snowball-1"></div>
+            <div class="snowball-2"></div>
+            <div class="snowball-3"></div>
+            <div class="snowball-4"></div>
+            <div class="snowball-5"></div>
+            <div class="snowball-6"></div>
+            <div class="snowball-7"></div>
+            <div class="snowball-8"></div>
+            <div class="snowball-9"></div>
+            <div class="snowball-10"></div>
+            <div class="snowball-11"></div>
+            <div class="snowball-12"></div>
+            <div class="snowball-13"></div>
+            <div class="snowball-14"></div>
+            <div class="snowball-15"></div>
+            <div class="snowball-16"></div>
+            <div class="snowball-17"></div>
+        </div>
     </div>
 </template>
 
@@ -44,17 +64,29 @@
         margin: auto;
         display: block;
         width: 600px;
-        height: 750px;
-        background: lightblue;
+        height: 650px;
+        background: #88b6d6;
         border: 4px solid gray;
+        overflow: hidden;
+    }
+
+     .background:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 155px;
+        background-color: white;
     }
 
     .christmas-tree {
         position: relative;
         margin: auto;
-        top: 10%;
+        top: 5%;
         width: 60%;
-        height: 80%;
+        height: 90%;
     }
 
     .tree-top {
@@ -75,7 +107,7 @@
         border-radius: 50%;
         transform: rotate(20deg);
         border-top-right-radius: 40%;
-        background: lightblue;
+        background: #88b6d6;
     }
 
     .top-right-side {
@@ -87,7 +119,7 @@
         border-radius: 50%;
         transform: rotate(-20deg);
         border-top-left-radius: 40%;
-        background: lightblue;
+        background: #88b6d6;
     }
 
     .top-bottom {
@@ -130,7 +162,7 @@
         border-radius: 50%;
         transform: rotate(33deg);
         border-top-right-radius: 40%;
-        background: lightblue;
+        background: #88b6d6;
     }
 
     .top-middle-right-side {
@@ -142,7 +174,7 @@
         border-radius: 50%;
         transform: rotate(-33deg);
         border-top-left-radius: 40%;
-        background: lightblue;
+        background: #88b6d6;
     }
 
     .top-middle-bottom {
@@ -186,7 +218,7 @@
         border-radius: 50%;
         transform: rotate(44deg);
         border-top-right-radius: 40%;
-        background: lightblue;
+        background: #88b6d6;
     }
 
     .middle-bottom-right-side {
@@ -198,7 +230,7 @@
         border-radius: 50%;
         transform: rotate(-44deg);
         border-top-left-radius: 40%;
-        background: lightblue;
+        background: #88b6d6;
     }
 
     .middle-bottom-bottom {
@@ -252,5 +284,175 @@
         top: -110%;
         background: brown;
         z-index: 1;
+    }
+
+    .snow {
+        position: relative;
+        width: 100%;
+        height: 10%;
+        bottom: 15%;
+        z-index: 2;
+    }
+
+    .snowball-1 {
+        position: absolute;
+        width: 10%;
+        height: 80%;
+        left: -2%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-2 {
+        position: absolute;
+        width: 7%;
+        height: 80%;
+        left: 5%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-3 {
+        position: absolute;
+        width: 8%;
+        height: 80%;
+        left: 9%;
+        top: -8%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-4 {
+        position: absolute;
+        width: 12%;
+        height: 80%;
+        left: 14%;
+        top: 2%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-5 {
+        position: absolute;
+        width: 10%;
+        height: 80%;
+        left: 21%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-6 {
+        position: absolute;
+        width: 7%;
+        height: 80%;
+        left: 28%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-7 {
+        position: absolute;
+        width: 8%;
+        height: 80%;
+        left: 33%;
+        top: -8%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-8 {
+        position: absolute;
+        width: 12%;
+        height: 80%;
+        left: 38%;
+        top: 2%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-9 {
+        position: absolute;
+        width: 10%;
+        height: 80%;
+        left: 45%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-10 {
+        position: absolute;
+        width: 7%;
+        height: 80%;
+        left: 50%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-11 {
+        position: absolute;
+        width: 8%;
+        height: 80%;
+        left: 55%;
+        top: -8%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-12 {
+        position: absolute;
+        width: 12%;
+        height: 80%;
+        left: 61%;
+        top: 2%;
+        border-radius: 50%;
+        background: white;
+    }
+
+     .snowball-13 {
+        position: absolute;
+        width: 10%;
+        height: 80%;
+        left: 68%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-14 {
+        position: absolute;
+        width: 7%;
+        height: 80%;
+        left: 75%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-15 {
+        position: absolute;
+        width: 8%;
+        height: 80%;
+        left: 80%;
+        top: -8%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-16 {
+        position: absolute;
+        width: 12%;
+        height: 80%;
+        left: 85%;
+        top: 2%;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .snowball-17 {
+        position: absolute;
+        width: 12%;
+        height: 80%;
+        left: 92%;
+        top: 6%;
+        border-radius: 50%;
+        background: white;
     }
 </style>
