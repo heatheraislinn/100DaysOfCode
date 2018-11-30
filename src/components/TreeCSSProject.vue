@@ -1,6 +1,49 @@
 <template>
     <div class="background">
+        <div class="star">
+            <div class="glow"></div>
+            <div class="star-body"></div>
+        </div>
+
         <div class="christmas-tree">
+            <div class="christmas-lights">
+                <div class="light light-1">
+                    <div class="inner-light">
+                        <div class="bulb"></div>
+                    </div>
+                </div>
+                <div class="light light-2">
+                    <div class="inner-light">
+                        <div class="bulb"></div>
+                    </div>
+                </div>
+                <div class="light light-3">
+                    <div class="inner-light">
+                        <div class="bulb"></div>
+                    </div>
+                </div>
+                <div class="light light-4">
+                    <div class="inner-light">
+                        <div class="bulb"></div>
+                    </div>
+                </div>
+                <div class="light light-5">
+                    <div class="inner-light">
+                        <div class="bulb"></div>
+                    </div>
+                </div>
+                <div class="light light-6">
+                    <div class="inner-light">
+                        <div class="bulb"></div>
+                    </div>
+                </div>
+                <div class="light light-7">
+                    <div class="inner-light">
+                        <div class="bulb"></div>
+                    </div>
+                </div>
+            </div>
+
             <div class="tree-top">
                 <div class="top-left-side"></div>
                 <div class="top-right-side"></div>
@@ -77,16 +120,203 @@
         left: 0;
         right: 0;
         width: 100%;
-        height: 155px;
+        height: 125px;
         background-color: white;
+    }
+
+    .star {
+        position: absolute;
+        left: 45.7%;
+        top: 8.5%;
+        z-index: 7;
+        height: 10%;
+        width: 10%;
+        margin: auto;
+    }
+
+    .star-body {
+        position: relative;
+        display:block;
+        width: 0px;
+        height: 0px;
+        border-right:25px solid transparent;
+        border-left: 25px solid transparent;
+        border-bottom: 15px solid #F3CE07;
+        transform: rotate(35deg);
+    }
+
+    .star-body:before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 0;
+        width: 0;
+        top: -17px;
+        left: -18px;
+        border-left: 7px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 23px solid #F3CE07;
+        transform: rotate(-35deg);
+    }
+
+    .star-body:after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 0px;
+        width: 0px;
+        top: 0px;
+        left: -25px;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 15px solid #F3CE07;
+        transform: rotate(-70deg); 
+    }
+
+    .glow {
+        position: absolute;
+        width: 25%;
+        height: 25%;
+        left: 30%;
+        opacity: 0.8;
+        border-radius: 50%;
+        background-color: #f4d402;
+        box-shadow:
+            0 0 40px 20px #fff29e,
+            0 0 40px 20px #fffad6,
+            0 0 40px 40px white;
+        animation: starGlows 3s infinite linear;
+    }
+
+    @keyframes starGlows {
+        0% {
+            opacity: 0.8;
+        }
+        50% {
+            opacity: 0.2;
+        }
+        100% {
+            opacity: 0.8;
+        }
     }
 
     .christmas-tree {
         position: relative;
         margin: auto;
-        top: 5%;
+        top: 8%;
         width: 60%;
         height: 90%;
+    }
+
+    .christmas-lights {
+        position: absolute;
+        margin: auto;
+        height: 67%;
+        width: 74%;
+        top: 5%;
+        left: 13%;
+        z-index: 6;
+    }
+
+    .light {
+        position: relative;
+        height: 7%;
+        width: 10%;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 2px solid #f5f1c0;
+        border-bottom: none;
+        border-right: none;
+        animation: lightMoves 2s infinite linear;
+    }
+
+    .light-1 {
+        left: 41%;
+        top: 18%;
+    }
+
+    .light-2 {
+        left: 27%;
+        top: 34%;
+        animation-delay: .5s;
+    }
+
+    .light-3 {
+        left: 55%;
+        top: 20%;
+        animation-delay: .25s;
+    }
+
+    .light-4 {
+        left: 18%;
+        top: 45%;
+        animation-delay: .5s;
+    }
+
+     .light-5 {
+        left: 44%;
+        top: 28%;
+        animation-delay: .25s;
+    }
+
+    .light-6 {
+        left: 71%;
+        top: 34%;
+        animation-delay: .5s;
+    }
+
+    .light-7 {
+        left: 40%;
+        top: 39%;
+    }
+
+    @keyframes lightMoves {
+        0% {
+            transform: rotate(0);
+        }
+        50% {
+            transform: rotate(90deg);
+        }
+        100% {
+            transform: rotate(0)
+        }
+    }
+
+    .inner-light {
+        position: relative;
+        margin: auto;
+        top: 13%;
+        height: 65%;
+        width: 65%;
+        border-radius: 50%;
+        background: transparent;
+        border: 2px solid #f5f1c0;
+        border-bottom: none;
+        border-left: none;
+        animation: innerLightMoves 2s infinite linear;
+    }
+
+    @keyframes innerLightMoves {
+        0% {
+            transform: rotate(0);
+        }
+        50% {
+            transform: rotate(45deg);
+        }
+        100% {
+            transform: rotate(0)
+        }
+    }
+
+    .bulb {
+        position: relative;
+        margin: auto;
+        top: 25%;
+        left: -3%;
+        height: 50%;
+        width: 50%;
+        border-radius: 50%;
+        background: #fffeec;
     }
 
     .tree-top {
@@ -125,7 +355,7 @@
     .top-bottom {
         position: relative;
         margin: auto;
-        width: 29%;
+        width: 31%;
         height: 15%;
         overflow: hidden;
         transform: rotate(180deg);
@@ -290,7 +520,7 @@
         position: relative;
         width: 100%;
         height: 10%;
-        bottom: 15%;
+        bottom: 12%;
         z-index: 2;
     }
 
