@@ -88,8 +88,8 @@
         padding: 10px;
         font-size: 1.3em;
         color: #484848;
-        text-align: left;
         margin-top: 10px;
+        border-radius: 40px;
     }
 
     .fact-grid {
@@ -104,7 +104,7 @@
         background: #deebf5;
         border: 5px solid #b4daf3;
         padding: 15px;
-        font-weight: bold;
+        font-weight: lighter;
         color: #484848;
     }
 
@@ -125,6 +125,5 @@
     a:hover {
         color: white;
     }
-
 
 </style>
