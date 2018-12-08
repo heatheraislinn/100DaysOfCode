@@ -5,7 +5,6 @@
             <div class="left-bottom-pane"></div>
             <div class="transom-vert"></div>
             <div class="transom-horiz"></div>
-            <div class="handle"></div>
             <div class="right-top-pane"></div>
             <div class="right-bottom-pane"></div>
             <div class="snow"></div>
