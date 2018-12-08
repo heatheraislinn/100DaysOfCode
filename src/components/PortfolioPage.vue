@@ -99,7 +99,7 @@
                     <img class="project-pic" src="https://user-images.githubusercontent.com/7342669/49687801-61780100-fad6-11e8-992b-09e4cb900fdd.gif" alt="project">
                     <div class="overlay">
                         <div class="text">
-                            <a href="https://codepen.io/FreeCodeCamp/pen/KzXQgy" target="_blank">Link</a>
+                            <a href="https://codepen.io/heatheraislinn/pen/VqZJGr" target="_blank">Link</a>
                         </div>
                     </div>
                 </div>
