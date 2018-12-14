@@ -47,7 +47,6 @@
         width: 70%;
         top: 15%;
         left: 15%;
-        border: 2px solid white;
     }
 
     .top-hat {
@@ -118,11 +117,11 @@
         position: absolute;
         width: 33%;
         height: 21%;
-        left: 34.5%;
+        left: 34%;
         top: 22%;
         border-radius: 50%;
-        border-left: 2px solid #bbb;
-        border-right: 2px solid #d4d4d4;
+        border-left: 3px solid #b9b4a5;
+        border-right: 3px solid #d4d4d4;
         background: radial-gradient(ellipse at top left, #96afa8, #7d9798, #8babba, #a9b5c3, #c6c7c9, #c6c7c9, #c0cccc);
     }
 </style>
