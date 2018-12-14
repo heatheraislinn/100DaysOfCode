@@ -1,5 +1,6 @@
 <template>
     <div class="main">
+        <div class="sun"></div>
         <div class="snowman">
             <div class="top-hat">
                 <div class="round-top"></div>
@@ -27,6 +28,17 @@
         height: 750px;
         background: radial-gradient(transparent 75%, #05426f 100%),
                     linear-gradient(135deg, #91a5a6, #8a9b8b, #8dabab, #889a80, #6d969c, #477e92, #518998);               
+    }
+
+    .sun {
+        position: absolute;
+        height: 14%;
+        width: 18%;
+        top: 20%;
+        right: 15%;
+        background: radial-gradient(#ecc56b, #e4ddb7);
+        box-shadow: 0 0 60px 20px #e4ddb7;
+        border-radius: 50%;
     }
 
     .snowman {
