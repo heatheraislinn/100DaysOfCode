@@ -11,10 +11,55 @@
                 <div class="brim"></div>
             </div>
 
-            <div class="snowman-head"></div>
+            <div class="snowman-head">
+                <div class="left-eye"></div>
+                <div class="right-eye"></div>
+                <div class="carrot-nose"></div>
+                <div class="coal-mouth">
+                    <div class="coal coal-1"></div>
+                    <div class="coal coal-2"></div>
+                    <div class="coal coal-3"></div>
+                    <div class="coal coal-4"></div>
+                    <div class="coal coal-5"></div>
+                    <div class="coal coal-6"></div>
+                    <div class="coal coal-7"></div>
+                </div>
+            </div>
+            <div class="scarf">
+                <div class="scarf-top"></div>
+                <div class="left-side"></div>
+                <div class="left-shadow"></div>
+                <div class="left-bottom-shadow"></div>
+                <div class="left-fringe">
+                    <div class="tassel tassel-1"></div>
+                    <div class="tassel tassel-2"></div>
+                    <div class="tassel tassel-3"></div>
+                    <div class="tassel tassel-4"></div>
+                    <div class="tassel tassel-5"></div>
+                    <div class="tassel tassel-6"></div>
+                    <div class="tassel tassel-7"></div>
+                    <div class="tassel tassel-8"></div>
+                </div>
+                <div class="right-side"></div>
+                <div class="right-shadow"></div>
+                <div class="right-bottom-shadow"></div>
+                <div class="right-fringe">
+                    <div class="tassel tassel-1"></div>
+                    <div class="tassel tassel-2"></div>
+                    <div class="tassel tassel-3"></div>
+                    <div class="tassel tassel-4"></div>
+                    <div class="tassel tassel-5"></div>
+                    <div class="tassel tassel-6"></div>
+                    <div class="tassel tassel-7"></div>
+                </div>
+            </div>
+
+            <div class="snowman-middle"></div>
+            <div class="snowman-bottom"></div>
         </div>
 
-        
+        <div class="snow-gradient"></div>
+        <div class="snow"></div>
 
     </div>
 </template>
@@ -64,7 +109,7 @@
         top: 5%;
         border-radius: 50%;
         background: radial-gradient(ellipse at top left, #9b9d8f, #667177, black);
-        z-index: 4;
+        z-index: 10;
     }
 
     .hat-body-top {
@@ -77,7 +122,7 @@
         border-bottom: 3px solid black;
         border-bottom-left-radius: 20%;
         border-bottom-right-radius: 20%;
-        z-index: 3;
+        z-index: 9;
     }
 
     .hat-body-bottom {
@@ -87,7 +132,7 @@
         left: 20%;
         top: 36%;
         background: linear-gradient(to right, #630408, #500106, #2f0304, #820f14, #9e1723, #af2228, #992d3a);
-        z-index: 2;
+        z-index: 8;
     }
 
     .rounded-bottom {
@@ -99,7 +144,7 @@
         border-bottom: 3px solid black;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
-        z-index: 2;
+        z-index: 7;
     }
 
     .brim {
@@ -110,7 +155,7 @@
         left: -5%;
         background: radial-gradient(ellipse at top left, #6f6e76, #918593, #889395, #6c7981, #3e5054, #3f333d, #707068);
         border-radius: 50%;
-        z-index: 1;
+        z-index: 6;
     }
 
     .snowman-head {
@@ -123,5 +168,220 @@
         border-left: 3px solid #b9b4a5;
         border-right: 3px solid #d4d4d4;
         background: radial-gradient(ellipse at top left, #96afa8, #7d9798, #8babba, #a9b5c3, #c6c7c9, #c6c7c9, #c0cccc);
+        z-index: 5;
+    }
+
+    .left-eye {
+      
+    }
+
+    .right-eye {
+  
+    }
+
+    .carrot-nose {
+        position: absolute;
+        width: 10%;
+        height: 45%;
+        top: 32%;
+        left: 63%;
+        border-radius: 50% 50% 50% 50% / 70% 70% 10% 10%;
+        background: linear-gradient(to right, #eab4a7, #ca7f68, #b94b34);
+        transform: rotate(76deg);
+    }
+
+    .coal-mouth {
+ 
+    }
+
+    .scarf {
+        position: absolute;
+        width: 44%;
+        height: 38%;
+        left: 30%;
+        top: 40%;
+        z-index: 4;
+    }
+
+    .scarf-top {
+        position: absolute;
+        width: 76%;
+        height: 32%;
+        left: 11%;
+        top: -8%;
+        border-radius: 50%;
+        background: linear-gradient(#e44b5c, #4a0001);
+        z-index: 2;
+    }
+
+    .left-side {
+        position: absolute;
+        width: 20%;
+        height: 40%;
+        top: -21%;
+        left: 13%;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 180px solid #ab1a27;
+        border-radius: 5px;
+    }
+
+    .left-shadow {
+        position: absolute;
+        width: 11%;
+        height: 1%;
+        top: 20%;
+        left: 26%;
+        background: transparent;
+        box-shadow: 0 0 40px 8px;
+    }
+
+    .left-bottom-shadow {
+        position: absolute;
+        width: 31%;
+        height: 0;
+        top: 96%;
+        left: 16%;
+        background: transparent;
+        box-shadow: 0 0 20px 1px;
+    }
+
+    .left-fringe {
+        position: absolute;
+        width: 35%;
+        height: 15%;
+        top: 97%;
+        left: 12%;
+    }
+
+    .right-fringe {
+        position: absolute;
+        width: 35%;
+        height: 15%;
+        top: 92%;
+        left: 50%;
+    }
+
+    .tassel {
+        position: absolute;
+        width: 25%;
+        border-radius: 50%;
+        background: transparent;
+        border-left: 3px solid #cdcdcf;
+    }
+
+    .tassel-1 {
+        height: 70%;
+    }
+
+     .tassel-2 {
+        height: 60%;
+        left: 13%;
+    }
+
+    .tassel-3 {
+        height: 70%;
+        left: 26%;
+    }
+
+    .tassel-4 {
+        height: 40%;
+        left: 39%;
+    }
+
+    .tassel-5 {
+        height: 60%;
+        left: 52%;
+    }
+
+    .tassel-6 {
+        height: 70%;
+        left: 65%;
+    }
+
+    .tassel-7 {
+        height: 40%;
+        left: 78%;
+    }
+
+    .tassel-8 {
+        height: 50%;
+        left: 91%;
+    }
+
+    .right-side {
+        position: absolute;
+        width: 15%;
+        height: 35%;
+        top: -21%;
+        left: 50%;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 180px solid #ab1a27;
+        border-radius: 5px;
+    }
+
+    .right-shadow {
+        position: absolute;
+        width: 7%;
+        height: 1%;
+        top: 20%;
+        left: 62%;
+        background: transparent;
+        box-shadow: 0 0 40px 8px;
+    }
+
+    .right-bottom-shadow {
+        position: absolute;
+        width: 30%;
+        height: 0;
+        top: 92%;
+        left: 50%;
+        background: transparent;
+        box-shadow: 0 0 14px 1px;
+    }
+
+    .snowman-middle {
+        position: absolute;
+        width: 41%;
+        height: 26%;
+        left: 31%;
+        top: 42%;
+        border-radius: 50%;
+        border-left: 3px solid #b9b4a5;
+        border-right: 3px solid #d4d4d4;
+        background: radial-gradient(ellipse at top left, #96afa8, #7d9798, #8babba, #a9b5c3, #c6c7c9, #c6c7c9, #c0cccc);
+        z-index: 3;
+    }
+
+    .snowman-bottom {
+        position: absolute;
+        width: 71%;
+        height: 42%;
+        left: 16%;
+        top: 58%;
+        border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+        border-left: 3px solid #b9b4a5;
+        border-right: 3px solid #d4d4d4;
+        background: radial-gradient(ellipse at top left, #96afa8, #7d9798, #8babba, #a9b5c3, #c6c7c9, #c6c7c9, #c0cccc);
+        z-index: 2;
+    }
+
+    .snow-gradient {
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        bottom: 10%;
+        background: transparent;
+        z-index: 1;
+    }
+
+    .snow {
+        position: absolute;
+        width: 100%;
+        height: 18%;
+        background: radial-gradient(ellipse at top, #cdcdcf, #a7bac6, #528b9d, #3b6c89);
+        bottom: 0;
+        opacity: .75;
     }
 </style>
