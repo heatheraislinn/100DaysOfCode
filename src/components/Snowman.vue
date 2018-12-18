@@ -217,7 +217,7 @@
         left: 11%;
         top: -8%;
         border-radius: 50%;
-        background: linear-gradient(#e44b5c, #4a0001);
+        background: linear-gradient(#d3d3b5, #d45358, #9e1517);
         z-index: 2;
     }
 
