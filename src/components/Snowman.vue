@@ -48,7 +48,11 @@
                 </div>
             </div>
 
-            <div class="snowman-middle"></div>
+            <div class="snowman-middle">
+                <div class="coal-button button-1"></div>
+                <div class="coal-button button-2"></div>
+                <div class="coal-button button-3"></div>
+            </div>
             <div class="snowman-bottom"></div>
         </div>
 
@@ -65,9 +69,7 @@
             <div class="finger-branch branch-top"></div>
         </div>
 
-        <div class="snow-gradient"></div>
         <div class="snow"></div>
-
     </div>
 </template>
 
@@ -179,18 +181,30 @@
     }
 
     .left-eye {
-      
+        position: absolute;
+        top: 38%;
+        left: 35%;
+        width: 10%;
+        height: 13%;
+        border-radius: 50%;
+        background: radial-gradient(circle at top left, gray, black);
     }
 
     .right-eye {
-  
+        position: absolute;
+        top: 37%;
+        left: 60%;
+        width: 10%;
+        height: 13%;
+        border-radius: 50%;
+        background: radial-gradient(circle at top left, gray, black);
     }
 
     .carrot-nose {
         position: absolute;
         width: 10%;
         height: 45%;
-        top: 32%;
+        top: 35%;
         left: 63%;
         border-radius: 50% 50% 50% 50% / 70% 70% 10% 10%;
         background: linear-gradient(to right, #eab4a7, #ca7f68, #b94b34);
@@ -217,7 +231,7 @@
         left: 11%;
         top: -8%;
         border-radius: 50%;
-        background: linear-gradient(#d3d3b5, #d45358, #9e1517);
+        background: linear-gradient(#d3d3b5, #c73f44, #8c0d0f);
         z-index: 2;
     }
 
@@ -361,6 +375,27 @@
         z-index: 3;
     }
 
+    .coal-button {
+        position: absolute;
+        width: 8%;
+        height: 11%;
+        left: 46%;
+        border-radius: 50%;
+        background: radial-gradient(circle at top left, gray, black);
+    }
+
+    .button-1 {
+        top: 38%;
+    }
+
+    .button-2 {
+        top: 56%;
+    }
+
+    .button-3 {
+        top: 74%;
+    }
+
     .snowman-bottom {
         position: absolute;
         width: 71%;
@@ -431,15 +466,6 @@
         top: 41%;
         left: 59%;
         transform: rotate(210deg);
-    }
-
-    .snow-gradient {
-        position: absolute;
-        width: 100%;
-        height: 10%;
-        bottom: 10%;
-        background: transparent;
-        z-index: 1;
     }
 
     .snow {
