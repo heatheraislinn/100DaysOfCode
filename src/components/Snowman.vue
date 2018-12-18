@@ -16,13 +16,7 @@
                 <div class="right-eye"></div>
                 <div class="carrot-nose"></div>
                 <div class="coal-mouth">
-                    <div class="coal coal-1"></div>
-                    <div class="coal coal-2"></div>
-                    <div class="coal coal-3"></div>
-                    <div class="coal coal-4"></div>
-                    <div class="coal coal-5"></div>
-                    <div class="coal coal-6"></div>
-                    <div class="coal coal-7"></div>
+
                 </div>
             </div>
             <div class="scarf">
@@ -56,6 +50,19 @@
 
             <div class="snowman-middle"></div>
             <div class="snowman-bottom"></div>
+        </div>
+
+        <div class="branch-arms left-arm">
+            <div class="arm-base"></div>
+            <div class="arm-top"></div>
+            <div class="finger-branch branch-left"></div>
+            <div class="finger-branch branch-top"></div>
+        </div>
+        <div class="branch-arms right-arm">
+            <div class="arm-base"></div>
+            <div class="arm-top"></div>
+            <div class="finger-branch branch-left"></div>
+            <div class="finger-branch branch-top"></div>
         </div>
 
         <div class="snow-gradient"></div>
@@ -365,6 +372,65 @@
         border-right: 3px solid #d4d4d4;
         background: radial-gradient(ellipse at top left, #96afa8, #7d9798, #8babba, #a9b5c3, #c6c7c9, #c6c7c9, #c0cccc);
         z-index: 2;
+    }
+
+    .branch-arms {
+        position: absolute;
+        top: 27%;
+        width: 30%;
+        height: 40%;
+        z-index: 6;
+    }
+
+    .left-arm {
+        left: 8%;
+    }
+
+    .right-arm {
+        left: 65%;
+        transform: scaleX(-1);
+    }
+
+    .arm-base {
+        position: absolute;
+        width: 10%;
+        height: 30%;
+        top: 50%;
+        left: 77%;
+        border-radius: 50% 50% 50% 50% / 40% 50% 10% 10%;
+        border-left: 8px solid #6f3316;
+        transform: rotate(-45deg);
+    }
+
+    .arm-top {
+        position: absolute;
+        width: 10%;
+        height: 20%;
+        top: 40%;
+        left: 63%;
+        border-radius: 50% 50% 50% 50% / 40% 50% 10% 10%;
+        border-left: 6px solid #6f3316;
+        transform: rotate(-15deg);
+    }
+
+    .finger-branch {
+        position: absolute;
+        width: 10%;
+        height: 9%;
+        border-radius: 50% 50% 50% 50% / 40% 0% 10% 100%;
+        border-left: 4px solid #6f3316;
+    }
+
+    .branch-left {
+        top: 45%;
+        left: 56%;
+        transform: rotate(-50deg);
+    }
+
+    .branch-top {
+        top: 41%;
+        left: 59%;
+        transform: rotate(210deg);
     }
 
     .snow-gradient {
