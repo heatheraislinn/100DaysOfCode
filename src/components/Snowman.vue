@@ -10,7 +10,6 @@
                 </div>
                 <div class="brim"></div>
             </div>
-
             <div class="snowman-head">
                 <div class="left-eye"></div>
                 <div class="right-eye"></div>
@@ -49,7 +48,6 @@
                     <div class="tassel tassel-7"></div>
                 </div>
             </div>
-
             <div class="snowman-middle">
                 <div class="coal-button button-1"></div>
                 <div class="coal-button button-2"></div>
@@ -57,7 +55,6 @@
             </div>
             <div class="snowman-bottom"></div>
         </div>
-
         <div class="branch-arms left-arm">
             <div class="arm-base"></div>
             <div class="arm-top"></div>
@@ -70,8 +67,8 @@
             <div class="finger-branch branch-left"></div>
             <div class="finger-branch branch-top"></div>
         </div>
-
         <div class="snow"></div>
+        <div class="snowfall"></div>
     </div>
 </template>
 
@@ -506,5 +503,23 @@
         background: radial-gradient(ellipse at top, #cdcdcf, #a7bac6, #528b9d, #3b6c89);
         bottom: 0;
         opacity: .75;
+    }
+
+    .snowfall {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background: url('https://user-images.githubusercontent.com/7342669/50293046-ab4ed880-0440-11e9-8537-8a0e70729b34.png'), url('https://user-images.githubusercontent.com/7342669/50293049-ad189c00-0440-11e9-8cae-a57ad65c22ca.png'), url('https://user-images.githubusercontent.com/7342669/50294834-c58ab580-0444-11e9-84b6-186b19edf94d.png');
+        animation: letItSnow 20s linear infinite;
+        z-index: 9;
+    }
+
+    @keyframes letItSnow {
+        0% {
+            background-position: 0px 0px;
+        }
+        100% {
+            background-position: 500px 1000px, 400px 400px, 300px;
+        }
     }
 </style>
