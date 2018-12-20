@@ -15,9 +15,11 @@
                 <div class="left-eye"></div>
                 <div class="right-eye"></div>
                 <div class="carrot-nose"></div>
-                <div class="coal-mouth">
-
-                </div>
+                <div class="coal-mouth coal-1"></div>
+                <div class="coal-mouth coal-2"></div>
+                <div class="coal-mouth coal-3"></div>
+                <div class="coal-mouth coal-4"></div>
+                <div class="coal-mouth coal-5"></div>
             </div>
             <div class="scarf">
                 <div class="scarf-top"></div>
@@ -212,7 +214,36 @@
     }
 
     .coal-mouth {
- 
+        position: absolute;
+        width: 8%;
+        height: 10%;
+        border-radius: 50%;
+        background: radial-gradient(circle at top left, gray, black);
+    }
+
+    .coal-1 {
+        top: 79%;
+        left: 51%;
+    }
+
+    .coal-2 {
+        top: 78%;
+        left: 39%;
+    }
+
+    .coal-3 {
+        top: 71%;
+        left: 27%;
+    }
+
+    .coal-4 {
+        top: 78%;
+        left: 63%;
+    }
+
+    .coal-5 {
+        top: 71%;
+        left: 75%;
     }
 
     .scarf {
