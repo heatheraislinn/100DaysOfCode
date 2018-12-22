@@ -5,7 +5,7 @@
                 <p class="merry">Merry</p> 
                 <p class="christmas">Christmas</p>
             </div>
-            <div class="cookie">
+            <div class="cookie cookie-1">
                 <div class="frosting">
                     <div class="snowflake">
                         <div class="line line-1"></div>
@@ -82,6 +82,167 @@
                     </div>
                 </div>
             </div>
+
+            <div class="cookie cookie-2">
+                <div class="frosting">
+                    <div class="snowflake">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                        <div class="arrows arrows-1">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+                        <div class="arrows arrows-2">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+                        <div class="arrows arrows-3">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+                        <div class="arrows arrows-4">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+                        <div class="arrows arrows-5">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+                        <div class="arrows arrows-6">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+
+                        <div class="icing-circles">
+                            <div class="circle circle-1"></div>
+                            <div class="circle circle-2"></div>
+                            <div class="circle circle-3"></div>
+                            <div class="circle circle-4"></div>
+                            <div class="circle circle-5"></div>
+                            <div class="circle circle-6"></div>
+                            <div class="circle circle-7"></div>
+                            <div class="circle circle-8"></div>
+                            <div class="circle circle-9"></div>
+                            <div class="circle circle-10"></div>
+                            <div class="circle circle-11"></div>
+                            <div class="circle circle-12"></div>
+                            <div class="circle circle-middle"></div>
+                        </div>
+
+                        <div class="silver-sprinkles">
+                            <div class="sprinkle sprinkle-1"></div>
+                            <div class="sprinkle sprinkle-2"></div>
+                            <div class="sprinkle sprinkle-3"></div>
+                            <div class="sprinkle sprinkle-4"></div>
+                            <div class="sprinkle sprinkle-5"></div>
+                            <div class="sprinkle sprinkle-6"></div>
+                            <div class="sprinkle sprinkle-7"></div>
+                            <div class="sprinkle sprinkle-8"></div>
+                            <div class="sprinkle sprinkle-9"></div>
+                            <div class="sprinkle sprinkle-10"></div>
+                            <div class="sprinkle sprinkle-11"></div>
+                            <div class="sprinkle sprinkle-12"></div>
+                            <div class="sprinkle sprinkle-middle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cookie cookie-3">
+                <div class="frosting">
+                    <div class="snowflake">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                        <div class="arrows arrows-1">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+                        <div class="arrows arrows-2">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+                        <div class="arrows arrows-3">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+                        <div class="arrows arrows-4">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+                        <div class="arrows arrows-5">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+                        <div class="arrows arrows-6">
+                            <div class="arrow-line arrow-line-1"></div>
+                            <div class="arrow-line arrow-line-2"></div>
+                            <div class="arrow-line arrow-line-3"></div>
+                            <div class="arrow-line arrow-line-4"></div>
+                        </div>
+
+                        <div class="icing-circles">
+                            <div class="circle circle-1"></div>
+                            <div class="circle circle-2"></div>
+                            <div class="circle circle-3"></div>
+                            <div class="circle circle-4"></div>
+                            <div class="circle circle-5"></div>
+                            <div class="circle circle-6"></div>
+                            <div class="circle circle-7"></div>
+                            <div class="circle circle-8"></div>
+                            <div class="circle circle-9"></div>
+                            <div class="circle circle-10"></div>
+                            <div class="circle circle-11"></div>
+                            <div class="circle circle-12"></div>
+                            <div class="circle circle-middle"></div>
+                        </div>
+
+                        <div class="silver-sprinkles">
+                            <div class="sprinkle sprinkle-1"></div>
+                            <div class="sprinkle sprinkle-2"></div>
+                            <div class="sprinkle sprinkle-3"></div>
+                            <div class="sprinkle sprinkle-4"></div>
+                            <div class="sprinkle sprinkle-5"></div>
+                            <div class="sprinkle sprinkle-6"></div>
+                            <div class="sprinkle sprinkle-7"></div>
+                            <div class="sprinkle sprinkle-8"></div>
+                            <div class="sprinkle sprinkle-9"></div>
+                            <div class="sprinkle sprinkle-10"></div>
+                            <div class="sprinkle sprinkle-11"></div>
+                            <div class="sprinkle sprinkle-12"></div>
+                            <div class="sprinkle sprinkle-middle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="crumbs crumbs-1"></div>
+            <div class="crumbs crumbs-2"></div>
+            <div class="crumbs crumbs-3"></div>
+            <div class="crumbs crumbs-4"></div>
         </div>
     </div>
 </template>
@@ -147,15 +308,64 @@
 
     .cookie {
         position: absolute;
-        top: 18%;
-        left: 17%;
-        height: 65%;
-        width: 65%;
+        height: 45%;
+        width: 45%;
         border-radius: 50%;
         background: radial-gradient(circle at top left, #eadec4, #eadec4, #e0cfa1, #e1ca98);
-        box-shadow: 0px 4px 10px 0px #634806;
         border-top: 3px solid #ebe0c6;
     }
+
+    .cookie-1 {
+        top: 18%;
+        left: 17%;
+        box-shadow: 0 8px 20px 2px #424242;
+        animation: getEaten 2s;
+        animation-delay: 9s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+    }
+
+    .cookie-2 {
+        top: 38%;
+        left: 17%;
+        transform: rotate(25deg);
+        box-shadow: 0 0 20px 2px #424242;
+        z-index: 2;
+        animation: getEaten 2s;
+        animation-delay: 7s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+    }
+
+    .cookie-3 {
+        top: 27%;
+        left: 43%;
+        transform: rotate(-15deg);
+        box-shadow: -3px 7px 20px 2px #424242;
+        z-index: 3;
+        animation: getEaten 2s;
+        animation-delay: 5s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes getEaten {
+        0% {
+            opacity: 1;
+        }
+        49% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+        }
+    } 
 
     .frosting {
         position: absolute;
@@ -165,16 +375,15 @@
         width: 85%;
         border-radius: 50%;
         background: radial-gradient(circle at top, #fafeff, #cef3ff, #cef3ff, lightblue);
-        border-bottom: 3px solid #8ac5d6;
-        border-top: 3px solid white;
+        box-shadow: 2px 2px 13px -1px #464646;;
     }
 
     .snowflake {
         position: absolute;
         height: 95%;
         width: 95%;
-        top: 2%;
-        left: 2%;
+        top: 2.5%;
+        left: 2.5%;
     }
 
     .line {
@@ -182,8 +391,9 @@
         height: 100%;
         width: 4%;
         left: 48%;
-        background: linear-gradient(to right, #e6e6e6, white, #e6e6e6);
+        background: linear-gradient(to right, #e6e6e6, white, #d6d6d6);
         border-radius: 30px;
+        box-shadow: 1px 1px 10px -4px;
     }
 
     .line-1 {
@@ -244,8 +454,9 @@
         position: absolute;
         height: 50%;
         width: 12%;
-        background: linear-gradient(to right, #e6e6e6, white, #e6e6e6);
+        background: linear-gradient(to right, #e6e6e6, white, #d6d6d6);
         border-radius: 30px;
+        box-shadow: 1px 1px 10px -4px;
     }
 
     .arrow-line-1 {
@@ -282,7 +493,8 @@
         height: 8%;
         width: 8%;
         border-radius: 50%;
-        background: white;
+        background: radial-gradient(circle at top left, white, #e0e0e0);
+        box-shadow: 2px 1px 7px -1px;
     }
 
     .circle-1 {
@@ -350,6 +562,127 @@
         left: 47%;
     }
 
+    .sprinkle {
+        position: absolute;
+        height: 6%;
+        width: 6%;
+        border-radius: 50%;
+        background: radial-gradient(circle at 4px 4px, #e6e6e6, #171717);
+        transform: rotate(45deg);
+    }
+
+    .sprinkle:before {
+        content: "";
+        position: absolute;
+        top: 15%;
+        left: 9%;
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+        filter: blur(3px);
+        z-index: 2;
+    }
+
+    .sprinkle-1 {
+        top: 38%;
+        left: 1%;
+    }
+
+    .sprinkle-2 {
+        top: 0;
+        left: 38%;
+    }
+
+    .sprinkle-3 {
+        top: 14%;
+        left: 80%;
+    }
+
+    .sprinkle-4 {
+        top: 55%;
+        left: 93%;
+    }
+
+    .sprinkle-5 {
+        top: 81%;
+        left: 14%;
+    }
+
+    .sprinkle-6 {
+        top: 93%;
+        left: 55%;
+    }
+
+    .sprinkle-7 {
+        top: 59%;
+        left: 58%;
+    }
+
+    .sprinkle-8 {
+        top: 64%;
+        left: 42%;
+    }
+
+    .sprinkle-9 {
+        top: 41%;
+        left: 64%;
+    }
+
+    .sprinkle-10 {
+        top: 29%;
+        left: 52%;
+    }
+
+    .sprinkle-11 {
+        top: 35%;
+        left: 34%;
+    }
+
+    .sprinkle-12 {
+        top: 51%;
+        left: 29%;
+    }
+
+    .sprinkle-middle {
+        top: 46%;
+        left: 47%;
+    }
+
+    .crumbs {
+        position: absolute;
+        background: radial-gradient(circle at top left, #e9ddbd, #d2be8c);
+        border-radius: 50%;
+        box-shadow: 0 1px 2px 0 #444;
+    }
+
+    .crumbs-1 {
+        top: 50%;
+        left: 25%;
+        height: 2%;
+        width: 2%;
+    }
+
+    .crumbs-2 {
+        top: 56%;
+        left: 28%;
+        height: 1%;
+        width: 1%;
+    }
+
+    .crumbs-3 {
+        top: 36%;
+        left: 58%;
+        height: 1%;
+        width: 1%;
+    }
+
+     .crumbs-4 {
+        top: 52%;
+        left: 61%;
+        height: 2%;
+        width: 2%;
+    }
 
 
 </style>
