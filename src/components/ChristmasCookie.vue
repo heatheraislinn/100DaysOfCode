@@ -319,8 +319,9 @@
         top: 18%;
         left: 17%;
         box-shadow: 0 8px 20px 2px #424242;
+        z-index: 2;
         animation: getEaten 2s;
-        animation-delay: 9s;
+        animation-delay: 11s;
         animation-timing-function: linear;
         animation-fill-mode: forwards;
         animation-iteration-count: 1;
@@ -331,9 +332,9 @@
         left: 17%;
         transform: rotate(25deg);
         box-shadow: 0 0 20px 2px #424242;
-        z-index: 2;
+        z-index: 3;
         animation: getEaten 2s;
-        animation-delay: 7s;
+        animation-delay: 9s;
         animation-timing-function: linear;
         animation-fill-mode: forwards;
         animation-iteration-count: 1;
@@ -344,9 +345,9 @@
         left: 43%;
         transform: rotate(-15deg);
         box-shadow: -3px 7px 20px 2px #424242;
-        z-index: 3;
+        z-index: 4;
         animation: getEaten 2s;
-        animation-delay: 5s;
+        animation-delay: 7s;
         animation-timing-function: linear;
         animation-fill-mode: forwards;
         animation-iteration-count: 1;
