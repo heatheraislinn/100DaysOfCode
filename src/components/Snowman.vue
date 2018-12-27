@@ -511,7 +511,7 @@
         width: 100%;
         background: url('https://user-images.githubusercontent.com/7342669/50293046-ab4ed880-0440-11e9-8537-8a0e70729b34.png'), url('https://user-images.githubusercontent.com/7342669/50293049-ad189c00-0440-11e9-8cae-a57ad65c22ca.png'), url('https://user-images.githubusercontent.com/7342669/50294834-c58ab580-0444-11e9-84b6-186b19edf94d.png');
         animation: letItSnow 20s linear infinite;
-        z-index: 9;
+        z-index: 11;
     }
 
     @keyframes letItSnow {
