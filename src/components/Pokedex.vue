@@ -64,13 +64,13 @@
         height: 55%;
         background-color: #dedede;
         border-radius: 6px;
-        border-bottom: 2px solid gray;
+        border-bottom: 2px solid #545454;
     }
 
     .top-buttons {
         position: absolute;
         left: 36%;
-        top: 2%;
+        top: 3%;
         width: 30%;
         height: 10%;
     }
@@ -79,17 +79,18 @@
         position: absolute;
         background-color: #dc0a2d;
         border-radius: 50%;
+        border-bottom: 1px solid black;
     }
 
     .button-1 {
-        width: 15%;
-        height: 55%;
+        width: 17%;
+        height: 50%;
         left: 25%;
     }
 
     .button-2 {
-        width: 15%;
-        height: 55%;
+        width: 17%;
+        height: 50%;
         right: 25%;
     }
 
@@ -164,6 +165,7 @@
         height: 41%;
         background-color: #51ae5f;
         border-radius: 4px;
+        border-bottom: 2px solid black;
     }
 
     .plus-button {
@@ -184,11 +186,14 @@
 
     .vert {
         left: 40%;
+        border-bottom: 2px solid black;
+        z-index: 2;
     }
 
     .horiz {
         left: 40%;
         transform: rotate(90deg);
+        border-right: 2px solid black;
     }
 
     .pill-button {
@@ -197,6 +202,7 @@
         width: 12%;
         height: 6%;
         border-radius: 5px;
+        border-bottom: 1px solid black;
     }
 
     .pill-1 {
@@ -239,6 +245,7 @@
         top: 10%;
         background-color: #2d2d2d;
         border-radius: 6px;
+        border-bottom: 2px solid black;
     }
 
 </style>
