@@ -1,37 +1,34 @@
 <template>
     <div class="pokedex">
-        <div class="inner-line">
-            <div class="poke-monitor">
-                <div class="top-buttons">
-                    <div class="button button-1"></div>
-                    <div class="button button-2"></div>
-                </div>
-                <div class="screen"></div>
-                <div class="button button-3"></div>
-                <div class="hamburger-button">
-                    <div class="line"></div>
-                    <div class="line line-2"></div>
-                    <div class="line line-3"></div>
-                    <div class="line line-4"></div>
-                </div>
+        <div class="poke-monitor">
+            <div class="top-buttons">
+                <div class="button button-1"></div>
+                <div class="button button-2"></div>
             </div>
-
-            <div class="left-bottom">
-                <div class="button button-4"></div>
-                <div class="pill-button pill-1"></div>
-                <div class="pill-button pill-2"></div>
-                <div class="green-screen"></div>
-                <div class="plus-button">
-                    <div class="plus-arms vert"></div>
-                    <div class="plus-arms horiz"></div>
-                </div>
+            <div class="screen"></div>
+            <div class="button button-3"></div>
+            <div class="hamburger-button">
+                <div class="line"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+                <div class="line line-4"></div>
             </div>
-
         </div>
+
+        <div class="left-bottom">
+            <div class="button button-4"></div>
+            <div class="pill-button pill-1"></div>
+            <div class="pill-button pill-2"></div>
+            <div class="green-screen"></div>
+            <div class="plus-button">
+                <div class="plus-arms vert"></div>
+                <div class="plus-arms horiz"></div>
+            </div>
+        </div>
+
         <div class="middle-hinge"></div>
 
         <div class="right-side-box"></div>
-
     </div>
 </template>
 
@@ -43,24 +40,16 @@
         height: 450px;
         margin-top: 5%;
         background-color: #dc0a2d;
-        overflow: hidden;
-    }
-
-    .inner-line {
-        position: absolute;
-        left: 0.8%;
-        width: 98%;
-        height: 100%;
-        background: transparent;
         border-left: 2px solid black;
         border-right: 2px solid black;
+        overflow: hidden;
     }
 
     .poke-monitor {
         position: absolute;
-        left: 4%;
+        left: 5%;
         top: 10%;
-        width: 39%;
+        width: 38%;
         height: 55%;
         background-color: #dedede;
         border-radius: 6px;
@@ -102,9 +91,9 @@
     }
 
     .button-4 {
-        width: 15%;
+        width: 14%;
         height: 35%;
-        left: 9%;
+        left: 11%;
         top: 5%;
         background-color: #2b2b2b;
     }
@@ -172,7 +161,7 @@
         position: absolute;
         left: 67%;
         top: 5%;
-        width: 30%;
+        width: 28%;
         height: 70%;
     }
 
