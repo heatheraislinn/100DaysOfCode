@@ -5,7 +5,7 @@
                 <div class="button button-1"></div>
                 <div class="button button-2"></div>
             </div>
-            <div class="screen"></div>
+            <div class="screen"><slot /></div>
             <div class="button button-3"></div>
             <div class="hamburger-button">
                 <div class="line"></div>
@@ -104,7 +104,7 @@
         height: 60%;
         left: 13%;
         top: 11%;
-        background-color: #27aafd;
+        background-color: #A9DEFB;
         border: 10px solid black;
     }
 
